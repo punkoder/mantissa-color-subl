@@ -4,33 +4,34 @@
     "version": "0.1.0",
     "variables":
     {  
-        "black": "hsl(234, 23%, 2%)", 
+        "black": "hsl(222, 3%, 3%)", 
         "onyx": "hsl(111, 11%, 8%)", 
-        "grey": "hsl(222, 15%, 15%)", 
-        "white": "hsl(77, 77%, 77%)",
+        "grey": "hsl(222, 15%,9%)", 
+        "white": "hsl(222, 55%, 88%)",
         "red": "hsl(0, 100%, 50%)",
-        "tomato": "hsl(15, 100%, 66%)",
-        "brown": "hsl(9°, 42%, 7%)",
+        "tomato": "hsl(15, 80%, 46%)",
+        "brown": "hsl(9°, 62%, 7%)",
         "rust": "hsl(18°, 99%, 36%)",
         "orange": "hsl(30, 100%, 50%)",
+        "tan": "hsl(27, 27%, 27%)",
         "gold": "hsl(42, 100%, 51%)",
-        "yellow": "hsl(63°, 100%, 49%)",
+        "yellow": "hsl(63°, 100%, 36%)",
         "olive": "hsl(70, 75%, 10%)",
         "khaki": "hsl(70, 75%, 30%)",
         "lime": "hsl(100, 100%, 52%)",
-        "green": "hsl(133, 88%, 42%)",
+        "green": "hsl(122, 92%, 52%)",
         "jungle": "hsl(152, 77%, 36%)",
-        "clover": "hsl(166, 36%, 36%)",
-        "teal": "hsl(166, 72%, 42%)",
+        "clover": "hsl(161, 66%, 77%)",
+        "teal": "hsl(161, 100%, 45%)",
         "cyan": "hsl(190, 100%, 52%)",
         "azure": "hsl(205, 100%, 50%)",
-        "blue": "hsl(218, 100%, 50%)",
-        "indigo": "hsl(209, 77%, 44%)",
+        "blue": "hsl(206, 100%, 66%)",
+        "indigo": "hsl(225, 88%, 33%)",
         "violet": "hsl(265, 100%, 42%)",
         "purple": "hsl(285, 100%, 55%)",
-        "magenta": "hsl(333, 100%, 42%)",
-        "pink": "hsl(356°, 60%, 49%)",
-        "cherry": "hsl(354, 100%, 55%)",
+        "magenta": "hsl(325, 100%, 52%)",
+        "pink": "hsl(345, 85%, 62%)",
+        "cherry": "hsl(358, 85%, 52%)",
     },
     "globals":
     {
@@ -46,7 +47,7 @@
         {
             "name": "Comment",
             "scope": "comment",
-            "foreground": "var(black)",
+            "foreground": "var(tan)",
             "background": "var(grey)",
         },
         {
@@ -177,6 +178,8 @@
             "name": "Function call",
             "scope": "variable.function",
             "foreground": "var(indigo)"
-        }, 
+        }
     ]
 }
+
+
